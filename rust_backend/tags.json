@@ -1,0 +1,8 @@
+{
+    "title": "Rust: бекенд",
+    "version": "Axum 0.8",
+    "url": "https://github.com/tokio-rs/axum",
+    "chapters": "6 глав",
+    "projects": [],
+    "in_development": true
+}

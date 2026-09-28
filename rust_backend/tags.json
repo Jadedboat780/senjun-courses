@@ -1,8 +1,21 @@
 {
-    "title": "Rust: бекенд",
+    "title": "Rust: бекенд на Axum",
     "version": "Axum 0.8",
     "url": "https://github.com/tokio-rs/axum",
     "chapters": "6 глав",
-    "projects": [],
+    "projects": [
+        {
+            "name": "Discord - переписал некоторые свои высоконагруженные сервисы с Go на Rust",
+            "url": "https://habr.com/ru/articles/487116/"
+        },
+        {
+            "name": "Pingora - HTTP-прокси от CloudFlare, который заменил NGINX и обрабатывает более триллиона запросов в день",
+            "url": "https://github.com/cloudflare/pingora"
+        },
+        {
+            "name": "Figma - вынес производительно-критичную часть совместного редактирования с TypeScript на Rust",
+            "url": "https://www.figma.com/blog/rust-in-production-at-figma/"
+        }
+    ],
     "in_development": true
 }

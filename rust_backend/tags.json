@@ -5,15 +5,15 @@
     "chapters": "6 глав",
     "projects": [
         {
-            "name": "Discord - переписал некоторые свои высоконагруженные сервисы с Go на Rust",
+            "name": "Discord — мессенджер",
             "url": "https://habr.com/ru/articles/487116/"
         },
         {
-            "name": "Pingora - HTTP-прокси от CloudFlare, который заменил NGINX и обрабатывает более триллиона запросов в день",
+            "name": "Pingora — HTTP-прокси Cloudflare",
             "url": "https://github.com/cloudflare/pingora"
         },
         {
-            "name": "Figma - вынес производительно-критичную часть совместного редактирования с TypeScript на Rust",
+            "name": "Figma — графический редактор",
             "url": "https://www.figma.com/blog/rust-in-production-at-figma/"
         }
     ],

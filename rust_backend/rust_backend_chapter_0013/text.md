@@ -85,17 +85,21 @@ let app = Router::new()
 
 Помимо `route`, у `Router` есть несколько методов, которые часто используются при построении приложения.
 
-1) `merge` - объединяет два роутера, сохраняя их пути:
+### `merge`
+
+Метод `merge` объединяет два роутера, сохраняя их пути:
 ```rust
 let users = Router::new().route("/users", get(list_users));
 let posts = Router::new().route("/posts", get(list_posts));
 
-let app = Router::new().merge(users).merge(posts); 
+let app = Router::new().merge(users).merge(posts);
 ```
 
 Если в объединяемых роутерах окажутся одинаковые пути, будет паника при запуске.
 
-2) `nest` - монтирует роутер под определённым префиксом:
+### `nest`
+
+Метод `nest` монтирует роутер под определённым префиксом:
 ```rust
 let users = Router::new()
     .route("/", get(list_users))

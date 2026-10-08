@@ -2,7 +2,7 @@
     "title": "Rust: бекенд на Axum",
     "version": "Axum 0.8",
     "url": "https://github.com/tokio-rs/axum",
-    "chapters": "6 глав",
+    "chapters": "9 глав",
     "projects": [
         {
             "name": "Discord — мессенджер",
